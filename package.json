@@ -4,8 +4,11 @@
   "description": "Part of a presentation \"Everything I Wish I Always Knew About Development\".",
   "main": "math.js",
   "scripts": {
-    "test": "mocha -R spec test.js"
+    "test": "node ./node_modules/mocha/bin/mocha -R spec test.js"
   },
   "author": "Nick Quinlan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "~1.17.1"
+  }
 }
