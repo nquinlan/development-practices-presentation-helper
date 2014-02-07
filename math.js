@@ -23,7 +23,7 @@ math.circle.circumference = function (radius) {
 }
 
 math.circle.area = function (radius) {
-	return math.multiply(3.14159265358979, math.multiply(radius, radius) );
+	return math.multiply(3.14159265358979, Math.pow(radius, 2) );
 }
 
 math.cylinder = {};
