@@ -1,0 +1,11 @@
+{
+  "name": "demonstration",
+  "version": "1.0.0",
+  "description": "Part of a presentation \"Everything I Wish I Always Knew About Development\".",
+  "main": "math.js",
+  "scripts": {
+    "test": "mocha -R spec test.js"
+  },
+  "author": "Nick Quinlan",
+  "license": "MIT"
+}
